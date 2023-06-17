@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div>
+			<div style="width: 100%; height: 25px; background-color: gainsboro; position: absolute; left: 0px; right: 0px; top: 0px;">
+				<div style="float: left; margin-left: 100px; color: red;">
+					<a href=" " class="underline" style="color: gray; font-size: 14px; text-decoration: none;">湖南</a>
+				</div>
+				<div style="float: left; margin-left: 600px;">
+					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">你好，请登录</a>
+				</div>
+				<div style="float: left; margin-left: 20px;">
+					<a href=" " style="text-decoration: none; color: red; font-size: 14px;">免费注册</a>
+				</div>
+				<div style="float: left; margin-left: 10px;">
+					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">| 我的订单</a>
+				</div>
+				<div style="float: left; margin-left: 10px;">
+					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">| 我的京东</a>
+				</div>
+				<div style="float: left; margin-left: 10px;">
+					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">| 企业采购</a>
+				</div>
+				<div style="float: left; margin-left: 10px;">
+					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">| 客户服务</a>
+				</div>
+				<div style="float: left; margin-left: 10px;">
+					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">| 网站导航</a>
+				</div>
+				<div style="float: left; margin-left: 10px;">
+					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">| 手机京东</a>
+				</div>
+			</div>
+		</div>
+		
+		<div>
+			<div style="width: 100%; height: 170px; position: absolute; left: 0px; right: 0px; top: 25px;">
+				<a href="Homepage.html"><img src="img/JD's logo.png" style="width: 110px; height: 95px; float: left; margin-left: 200px; margin-top: 25px;" /></a>
+				
+				<div style="border: 2px solid red; float: left; margin-left: 280px; margin-top: 50px;">
+					<div style="float: left;">
+						<input type="text" value="  搜索你想要的" style="border: none; width: 520px; height: 40px; font-size: 16px;"/>
+					</div>
+					<div style="float: left;">
+						<input type="submit" value="搜索" style="color: white; background: red; border: none; width: 100px; height: 45px;font-size: 16px;"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="width: 1070px; height: 30px; position: absolute; left: 180px; top: 165px;">
+			<div style="float: left; margin-left: 36px;">
+				<a style="font-size: 18px; font-weight: 600; color: red;">全部商品</a>
+			</div>
+			<div style="float: left; margin-left: 720px;">
+				<a style="font-size: 15px;">配送至：</a>
+				<select style="font-size: 15px;">
+					<option>湖南省株洲市天元区</option>
+				</select>
+			</div>
+		</div>
+		<div style="width: 1070px; height: 35px; background-color: gainsboro; position: absolute; left: 180px; top: 215px;">
+			<div style="float: left; margin-left: 45px;width: 100px;height: 15px;float: left;">
+				<div style="float: left; margin-top: 7px;">
+					<input type="checkbox" id="flag" name="select-all" onclick="selectAll(this)">
+				</div>
+				<a style="float: left; margin-top: 6px;">全选</a>
+			</div>
+			<div style="float: left; margin-left: 80px; margin-top: 7px;">
+				<a>商品</a>
+			</div>
+			<div style="float: left; margin-left: 390px; margin-top: 7px;">
+				<a>单价</a>
+			</div>
+			<div style="float: left; margin-left: 80px; margin-top: 7px;">
+				<a>数量</a>
+			</div>
+			<div style="float: left; margin-left: 80px; margin-top: 7px;">
+				<a>小计</a>
+			</div>
+			<div style="float: left; margin-left: 80px; margin-top: 7px;">
+				<a>操作</a>
+			</div>
+			<div style="width: 1068px; height: 240px; border: 1px solid lightgrey; float: left; margin-top: 30px;">
+				<div style="float: left; margin-left: 44px; margin-top: 105px; width: 80px;">
+					<div style="float: left; margin-top: 1px;">
+						<input type="checkbox" class="chks" onclick="change()"/>
+					</div>
+					<a style="float: left; margin-top: 0px;">选择</a>
+				</div>
+				<div style="float: left; width: 180px; margin-left: 20px; margin-top: 30px;">
+					<img src="img/dtlpic03.png" style="width: 180px; height: 180px;"/>
+				</div>
+				<div style="width: 220px; float: left; margin-left: 40px; margin-top: 75px;">
+					<a>卡西欧（CASIO）手表 G-SHOCK系列 防震防水多功能全自动高亮度LED照明 小方块运动男表 GW-B5600BC-1B</a>
+				</div>
+				<div style="width: 50px; float: left; margin-left: 45px; margin-top: 90px;">
+					<a>¥<span class="xj">1299</span>.00</a>
+				</div>
+				<div style="width: 100px; float: left; margin-left: 55px; margin-top: 90px;">
+					<input type="button" value="-" onclick="jian02(this)" style="background-color: red; border: none; color: white; width: 26px; height: 26px; font-size: 16px;">
+					<input type="text" value="1" class="num" style="width: 20px; height: 20px; text-align: center;"/>
+					<input type="button" value="+" onclick="jia02(this)" style="background-color: red; border: none; color: white; width: 26px; height: 26px; font-size: 16px;">
+				</div>
+				<div style="width: 80px; float: left; margin-left: 24px; margin-top: 90px;">
+					<a>¥<span id="subtotal02">1299</span></a>
+				</div>
+				<div style="width: 50px; float: left; margin-left: 10px; margin-top: 85px;">
+					<input type="button" value="删除" onclick="minus(this)" style="background-color: darkgray; border: none; height: 40px; width: 90px;"/>
+				</div>
+			</div>
+			<div style="width: 1068px; height: 240px; border: 1px solid lightgrey; float: left; margin-top: 30px;">
+				<div style="float: left; margin-left: 44px; margin-top: 105px; width: 80px;">
+					<div style="float: left; margin-top: 1px;">
+						<input type="checkbox" class="chks" onclick="change()"/>
+					</div>
+					<a style="float: left; margin-top: 0px;">选择</a>
+				</div>
+				<div style="float: left; width: 180px; margin-left: 20px; margin-top: 30px;">
+					<img src="img/dtlpic02.png" style="width: 180px; height: 180px;"/>
+				</div>
+				<div style="width: 220px; float: left; margin-left: 40px; margin-top: 75px;">
+					<a>飞利浦 27英寸 2K 165Hz 1ms HDR400 IPS技术 飞利浦小金刚 游戏电竞 吃鸡显示器 显示屏 猛腾275M8RZ</a>
+				</div>
+				<div style="width: 50px; float: left; margin-left: 45px; margin-top: 90px;">
+					<a>¥<span class="xj">1499</span>.00</a>
+				</div>
+				<div style="width: 100px; float: left; margin-left: 55px; margin-top: 90px;">
+					<input type="button" value="-" onclick="jian01(this)" style="background-color: red; border: none; color: white; width: 26px; height: 26px; font-size: 16px;"/>
+					<input type="text" value="1" class="num" style="width: 20px; height: 20px; text-align: center;"/>
+					<input type="button" value="+" onclick="jia01(this)" style="background-color: red; border: none; color: white; width: 26px; height: 26px; font-size: 16px;"/>
+				</div>
+				<div style="width: 80px; float: left; margin-left: 24px; margin-top: 90px;">
+					<a>¥<span id="subtotal01">1499</span></a>
+				</div>
+				<div style="width: 50px; float: left; margin-left: 10px; margin-top: 85px;">
+					<input type="button" value="删除" onclick="minus(this)" style="background-color: darkgray; border: none; height: 40px; width: 90px;"/>
+				</div>
+			</div>
+			<div style="width: 1068px; height: 50px; float: left; margin-top: 30px;">
+				<div style="width: 250px; height: 40px; float: left; margin-left: 690px; margin-top: 10px;" >
+					<a>已选择<span id="count" style="font-weight: 600;">0</span>件商品   总价:<span id="countprice" style="color: red; font-size: 28px;">0</span>元</a>
+				</div>
+				<div style="float: right; margin-right: 10px;">
+					<div style="width: 110px; height: 45px; background-color: red;" onclick="location='Payment.html'">
+						<a href="Payment.html" style="color: white; float: left; margin-left: 34px; margin-top: 10px; font-size: 20px; font-weight: 600; text-decoration: none;">结算</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="background-color: lightgrey; position: absolute; width: 100%; height: 200px; left: 0px; right: 0px; top: 900px">
+			<ul style="color: black; list-style: none;">
+				<li style="margin-left: 280px; font-size: 20px; font-weight: 600;">品类齐全，轻松购物 | 多仓直发，极速配送 | 正品行货，精致服务 | 天天低价，畅选无忧</li>
+				<li style="margin-left: 170px; margin-top: 10px;">关于我们 | 联系我们 | 联系客服 | 合作招商 | 商家帮助 | 营销中心 | 手机京东 | 友情链接 | 销售联盟 | 京东社区 | 风险监测 | 隐私政策 | 京东公益</li>
+				<li style="margin-left: 268px; margin-top: 10px;">京公网安备 11000002000088号 | 京ICP备11041704号 | 互联网药品信息服务资格证编号(京)-经营性-2014-0008</li>
+				<li style="margin-left: 267px; margin-top: 10px;">互联网出版许可证编号新出网证(京)字150号 | 出版物经营许可证 | 网络文化经营许可证京网文102016112-1201号</li>
+				<li style="margin-left: 362px; margin-top: 10px;">Copyright © 2004-2021 京东JD.com 版权所有 | 消费者维权热线：4006067733</li>
+				<li style="margin-left: 474px; margin-top: 10px;">（京)网械平台备字(2018)第00003号 | 营业执照</li>
+			</ul>
+		</div>
+	</body>
+	<script>
+		function selectAll(ck){
+			var checkboxes = document.getElementsByClassName("chks");
+			for(var i = 0 ;i<checkboxes.length;i++){
+				checkboxes[i].checked=ck.checked;
+			}
+			if(!ck.checked){
+				document.getElementById("count").innerText=0;
+				document.getElementById("countprice").innerText=0;
+				return ;
+			}
+			var count = 0 ;
+			var nums = document.getElementsByClassName("num");
+			for(var i = 0 ;i<nums.length;i++){
+				count = count + nums[i].value*1;
+			}
+			document.getElementById("count").innerText= count ;
+			var xj = 0 ;
+			var xjs = document.getElementsByClassName("xj");
+			for(var i = 0 ;i<xjs.length;i++){
+				xj = xj + xjs[i].innerText*1;
+			}
+			document.getElementById("countprice").innerText = xj ;
+			total();
+		}
+		function change(chk){
+			var chks = document.getElementsByClassName("chks");
+			var countprice = 0 ; 
+			var num = 0 ;
+			var f = true ;
+			for(var i = 0 ; i<chks.length;i++){
+				if(!chks[i].checked){
+					f = false ;
+				}
+				document.getElementById("flag").checked = f ;
+				if(chks[i].checked){
+					var xjstring = chks[i].parentNode.parentNode.childNodes[11].innerText;
+					var xj = xjstring.substring(1,xjstring.length)*1;
+					countprice = countprice + xj*i ;
+					var n = chks[i].parentNode.parentNode.childNodes[9].childNodes[3].value*1;
+					num = num + n ;	
+				}
+			}
+			document.getElementById("count").innerText = num ;
+			document.getElementById("countprice").innerText = countprice ;
+		}
+		function jian01(abc){
+			if(abc.parentNode.childNodes[3].value==1){
+				if(confirm("是否删除该商品？")){
+					abc.parentNode.parentNode.remove(abc.parentNode);	
+				}
+				return ;
+			}
+			abc.parentNode.childNodes[3].value = abc.parentNode.childNodes[3].value - 1 ;
+			dissub01();
+		}
+		function jian02(abc){
+			if(abc.parentNode.childNodes[3].value==1){
+				if(confirm("是否删除该商品？")){
+					abc.parentNode.parentNode.remove(abc.parentNode);	
+				}
+				return ;
+			}
+			abc.parentNode.childNodes[3].value = abc.parentNode.childNodes[3].value - 1 ;
+			dissub02();
+		}
+		function minus(abc){
+			if(confirm("是否删除该商品？")){
+				abc.parentNode.parentNode.remove(abc.parentNode);	
+			}
+		}
+		function jia01(btn){
+			btn.parentNode.childNodes[3].value = btn.parentNode.childNodes[3].value*1+1;
+			sub01();
+		}
+		function jia02(btn){
+			btn.parentNode.childNodes[3].value = btn.parentNode.childNodes[3].value*1+1;
+			sub02();
+		}
+		function sub01(){
+			document.getElementById("subtotal01").innerText -= -1499;
+			return;
+		}
+		function dissub01(){
+			document.getElementById("subtotal01").innerText -= 1499;
+			return;
+		}
+		function sub02(){
+			document.getElementById("subtotal02").innerText -= -1299;
+			return;
+		}
+		function dissub02(){
+			document.getElementById("subtotal02").innerText -= 1299;
+			return;
+		}
+		function total(){
+			document.getElementById("countprice").innerText = document.getElementById("subtotal02").innerText*1 + document.getElementById("subtotal01").innerText*1;
+			return;
+		}
+	</script>
+</html>
