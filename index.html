@@ -1,690 +1,106 @@
 <!DOCTYPE html>
+<html lang="zh">
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
-	</head>
-	
-	<style>
-		.hide{
-			display: none;
-			position: absolute;
-		}
-		.unfold:hover .hide{
-			display: block;
-		}
-		.underline{
-			text-decoration: none;
-		}
-		.gray{
-			color: gray;
-		}
-		.black{
-			color: black;
-		}
-		.leftlabel{
-			width: 200px;
-			height: 30px;
-			position: absolute;
-			left: 140px;
-			background-color: gainsboro;
-			opacity: 0.4;
-		}
-		a.textcolor:hover {
-			color: red;
-		}
-		.fl{
-			float: left;
-		}
-	</style>
-	
-	<body>
-		<div>
-			<div style="width: 100%; height: 25px; background-color: gainsboro; position: absolute; left: 0px; right: 0px; top: 0px;">
-				<div style="float: left; margin-left: 100px; text-decoration: none; color: red;">
-					<a href=" " class="underline" style="color: gray; font-size: 14px;">湖南</a>
-				</div>
-				<div style="float: left; margin-left: 600px;">
-					<a href="Loginpage.html" style="text-decoration: none; color: gray; font-size: 14px;">你好，请登录</a>
-				</div>
-				<div style="float: left; margin-left: 20px;">
-					<a href="map.html" style="text-decoration: none; color: red; font-size: 14px;">免费注册</a>
-				</div>
-				<div style="float: left; margin-left: 10px;">
-					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">| 我的订单</a>
-				</div>
-				<div style="float: left; margin-left: 10px;">
-					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">| 我的京东</a>
-				</div>
-				<div style="float: left; margin-left: 10px;">
-					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">| 企业采购</a>
-				</div>
-				<div style="float: left; margin-left: 10px;">
-					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">| 客户服务</a>
-				</div>
-				<div style="float: left; margin-left: 10px;">
-					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">| 网站导航</a>
-				</div>
-				<div style="float: left; margin-left: 10px;">
-					<a href=" " style="text-decoration: none; color: gray; font-size: 14px;">| 手机京东</a>
-				</div>
-			</div>
-		</div>
-		
-		<div>
-			<div style="width: 100%; height: 170px; position: absolute; left: 0px; right: 0px; top: 25px;">
-				<a href="Homepage.html"><img src="img/JD's logo.png" style="width: 110px; height: 95px; float: left; margin-left: 200px; margin-top: 25px;" /></a>
-				
-				<div style="float: left;">
-					<div style="border: 2px solid red; float: left; margin-left: 100px; margin-top: 30px;">
-						<div style="float: left;">
-							<input type="text" value="  搜索你想要的" style="border: none; width: 520px; height: 40px; font-size: 16px;"/>
-						</div>
-						<div style="float: left;">
-							<input type="submit" value="搜索" style="color: white; background: red; border: none; width: 100px; height: 45px;font-size: 16px;"/>
-						</div>
-					</div>
-					<div style="border: 2px solid gainsboro; float: left; margin-left: 15px; margin-top: 30px;">
-						<input type="submit" value="我的购物车" onclick="location='Shoppingcart.html'" style="color: red; background-color: white; border: none; width: 100px; height: 45px;font-size: 16px;"/>
-					</div>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" id="WebViewport" content="width=100%,initial-scale=1,target-densitydpi=device-dpi,minimum-scale=0.5,maximum-scale=1,user-scalable=1" />
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
 
-					<br>
-			
-					<div style="float: left; margin-left: 100px; margin-top: 10px; font-size: 14px;">
-						<a href=" " style="text-decoration: none; color: red;">京造11.11</a>
-					</div>
-					<div style="float: left; margin-left: 40px; margin-top: 10px; font-size: 14px;">
-						<a href=" " style="text-decoration: none; color: gray;">进口好物</a>
-					</div>
-					<div style="float: left; margin-left: 40px; margin-top: 10px; font-size: 14px;">
-						<a href=" " style="text-decoration: none; color: gray;">定金预售</a>
-					</div>
-					<div style="float: left; margin-left: 40px; margin-top: 10px; font-size: 14px;">
-						<a href=" " style="text-decoration: none; color: gray;">特惠9.9</a>
-					</div>
-					<div style="float: left; margin-left: 40px; margin-top: 10px; font-size: 14px;">
-						<a href=" " style="text-decoration: none; color: gray;">电脑盛典</a>
-					</div>
-					<div style="float: left; margin-left: 40px; margin-top: 10px; font-size: 14px;">
-						<a href=" " style="text-decoration: none; color: gray;">5折家具</a>
-					</div>
-					<div style="float: left; margin-left: 40px; margin-top: 10px; font-size: 14px;">
-						<a href=" " style="text-decoration: none; color: gray;">小家电</a>
-					</div>
-				
-					
-				</div>
-				<div style="float: left; width: 1000px; height: 200px; margin-top: 20px;">
-					<div style="float: left; margin-left: 70px; font-size: 20px; font-weight: 600;">
-						<a href=" " class="underline gray">秒杀</a>
-					</div>
-					<div style="float: left; margin-left: 30px; font-size: 20px; font-weight: 600;">
-						<a href=" " class="underline gray">优惠券</a>
-					</div>
-					<div style="float: left; margin-left: 30px; font-size: 20px;">
-						<a href=" " class="underline gray">PLUS会员</a>
-					</div>
-					<div style="float: left; margin-left: 30px; font-size: 20px;">
-						<a href=" " class="underline gray">品牌闪购</a>
-					</div>
-					<div style="float: left; margin-left: 30px; font-size: 20px;">
-						<a href=" " class="underline gray">京东家电</a>
-					</div>
-					<div style="float: left; margin-left: 30px; font-size: 20px;">
-						<a href=" " class="underline gray">京东超市</a>
-					</div>
-					<div style="float: left; margin-left: 30px; font-size: 20px;">
-						<a href=" " class="underline gray">京东国际</a>
-					</div>
-					<div style="float: left; margin-left: 30px; font-size: 20px;">
-						<a href=" " class="underline gray">京东云</a>
-					</div>
-				</div>
-			</div>
+<body>
+<div class="top_info">
+<!--	<div class="login"><a href="#">登录</a></div>-->
+	<div class="logo"><a href="http://www.psdhtml.cn/index.php?c=thread&fid=18?wx01sy" target="_blank"><img width="200" height="64"></a></div>
+	<div class="top-text">我们支持跨通信运营商、跨操作系统平台通过网络快速发送免费（需消耗少量网络流量）语音短信、视频、图片和文字，同时，也可以使用通过共享流媒体内容的资料和基于位置的社交插件“摇一摇”、“圈子”、”公众平台“、”语音记事本“等服务插件。</div>
+	<div class="round_div_all">
+		<div class="round_div">
+<!--			<div class="r-s01"><a href="http://www.psdhtml.cn/index.php?c=thread&fid=18?wx01sy" target="_blank"><img src="http://cdn.psdhtml.cn/wx_images/icon01.png" width="40" height="40"></a></div>-->
+			<div class="r-s02">Android</div>
 		</div>
-		
-		<div>
-			<div style="width: 100%; height: 1000px; background-color: ghostwhite; position: absolute; left: 0px; right: 0px; top: 195px;">
-				<div style="width: 200px; height: 390px; float: left; margin-left: 140px; margin-top: 20px; background-color: white;">
-					<div class="unfold" style="width: 200px; height: 30px; margin-top: 15px; padding-left: 10px;">
-						<a class="underline black" href=" ">家用电器</a>
-						<div class="hide" style="width: 720px; height: 390px; background-color: white; position: absolute; z-index: 2; left: 340px; top: 20px;">
-							<ul style="list-style: none;">
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">全面屏电视</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">教育电视</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">OLED电视</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">4K超清电视</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">智慧屏</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">55英寸</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">65英寸</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">电视配件</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">空调挂机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">空调柜机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">中央空调</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">变频空调</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">一级能效</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">移动空调</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">新风空调</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">冷柜/冰吧</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">滚筒洗衣机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">洗烘一体机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">波轮洗衣机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">迷你洗衣机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">对开门冰箱</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">油烟机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">燃气灶</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">消毒柜</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">空气净化器</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">扫地机器人</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">微波炉</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">电压力锅</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">按摩器</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">电烤箱</a></li>
-							</ul>
-						</div>
-						<div class="leftlabel hide" style="top: 32px;">
-						</div>
-					</div>
-					<div class="unfold" style="width: 200px; height: 30px; padding-left: 10px;">
-						<a href=" " class="underline black">手机/运营商/数码</a>
-						<div class="hide" style="width: 720px; height: 390px; background-color: white; position: absolute; z-index: 2; left: 340px; top: 20px;">
-							<ul style="list-style: none;">
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">游戏手机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">5G手机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">拍照手机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">全面屏手机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">手机储存卡</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">数据线</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">充电器</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">移动电源</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">三脚架/云台</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">闪光灯/手柄</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">数码相机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">微单相机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">单反相机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">耳机/耳麦</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">音箱/音响</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">学生平板</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">智能手表</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">收音机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">复读机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">监控摄像</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">电子词典</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">无人机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">智能眼镜</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">户外器材</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">点读笔</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">录音笔</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">手机饰品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">手机电池</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">创意配件</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">蓝牙耳机</a></li>
-							</ul>
-						</div>
-						<div class="leftlabel hide" style="top: 62px;">
-						</div>
-					</div>
-					<div class="unfold" style="width: 200px; height: 30px; padding-left: 10px;">
-						<a href=" " class="underline black">电脑/办公</a>
-						<div class="hide" style="width: 720px; height: 390px; background-color: white; position: absolute; z-index: 2; left: 340px; top: 20px;">
-							<ul style="list-style: none;">
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">笔记本</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">游戏本</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">平板电脑</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">台式机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">一体机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">服务器/工作站</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">显示器</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">主板</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">显卡</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">SSD固态硬盘</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">路由器</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">网络机顶盒</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">游戏周边</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">投影仪</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">打印机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">保险柜</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">收银机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">验钞/点钞机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">文件收纳</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">学生文具</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">安防监控</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">计算器</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">画具画材</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">文房四宝</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">办公文具</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">扫描设备</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">传真设备</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">刻录光盘</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">财会用品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">考勤门禁</a></li>
-							</ul>
-						</div>
-						<div class="leftlabel hide" style="top: 92px;">
-						</div>
-					</div>
-					<div class="unfold" style="width: 200px; height: 30px; padding-left: 10px;">
-						<a href=" " class="underline black">家居/家装/厨具</a>
-						<div class="hide" style="width: 720px; height: 390px; background-color: white; position: absolute; z-index: 2; left: 340px; top: 20px;">
-							<ul style="list-style: none;">
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">水具酒具</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">烹饪锅具</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">碗碟套装</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">厨房配件</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">厨房置物架</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">毛巾浴巾</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">四件套</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">地毯地垫</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">床垫/床褥</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">抱枕靠垫</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">窗帘/窗纱</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">枕巾/枕套</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">沙发垫套</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">蚕丝被</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">乳胶枕</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">蚊帐凉席</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">洗晒/熨烫</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">装饰字画</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">装饰摆件</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">香薰蜡烛</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">节庆饰品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">创意家居</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">3D立体墙贴</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">吸顶灯</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">节能灯</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">书架鞋柜</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">防盗门窗</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">淋浴花洒</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">电动工具</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">高端设计</a></li>
-							</ul>
-						</div>
-						<div class="leftlabel hide" style="top: 122px;">
-						</div>
-					</div>
-					<div class="unfold" style="width: 200px; height: 30px; padding-left: 10px;">
-						<a href=" " class="underline black">男装/女装/童装</a>
-						<div class="hide" style="width: 720px; height: 390px; background-color: white; position: absolute; z-index: 2; left: 340px; top: 20px;">
-							<ul style="list-style: none;">
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">时尚套装</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">牛仔裤</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">吊带/背心</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">旗袍/汉服</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">礼服婚纱</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">毛呢大衣</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">大码男装</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">西服套装</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">马甲/夹克</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">运动裤</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">设计师/潮牌</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">睡衣/家居服</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">休闲棉袜</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">打底裤袜</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">秋衣秋裤</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">女士围巾</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">毛线手套</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">男士丝巾</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">遮阳伞/雨伞</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">卫衣裤子</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">大衣毛衣</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">礼服/演出服</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">名族服装</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">运动鞋</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">皮鞋棉鞋</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">凉鞋拖鞋</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">帆布鞋</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">羽绒服</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">男士腰带</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">遮阳帽</a></li>
-							</ul>
-						</div>
-						<div class="leftlabel hide" style="top: 152px;">
-						</div>
-					</div>
-					<div class="unfold" style="width: 200px; height: 30px; padding-left: 10px;">
-						<a href=" " class="underline black">美妆/个护/宠物</a>
-						<div class="hide" style="width: 720px; height: 390px; background-color: white; position: absolute; z-index: 2; left: 340px; top: 20px;">
-							<ul style="list-style: none;">
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">面膜洁面</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">爽肤水</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">精华眼霜</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">乳液/面霜</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">润唇膏</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">气垫粉底</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">口红/唇膏</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">眼影眼线</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">眉笔/眉粉</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">女士香水</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">彩妆工具</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">控油洁面</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">精华套装</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">洗发水</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">护发素</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">造型/染发</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">烫发假发</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">美发工具</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">洗护套装</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">牙粉牙贴</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">漱口水</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">假牙清洁</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">沐浴露</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">香皂洗手液</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">抽纸卷纸</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">护理除菌</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">地板清洁剂</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">驱蚊驱虫</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">猫狗窝</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">鱼缸/水族箱</a></li>
-							</ul>
-						</div>
-						<div class="leftlabel hide" style="top: 182px;">
-						</div>
-					</div>
-					<div class="unfold" style="width: 200px; height: 30px; padding-left: 10px;">
-						<a href=" " class="underline black">女鞋/箱包/钟表</a>
-						<div class="hide" style="width: 720px; height: 390px; background-color: white; position: absolute; z-index: 2; left: 340px; top: 20px;">
-							<ul style="list-style: none;">
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">布鞋/绣花鞋</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">雨鞋/雨靴</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">高跟鞋</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">单肩包</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">卡包/零钱包</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">钥匙包</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">双肩包</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">商务公文包</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">卡包名片夹</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">休闲运动包</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">腰包/胸包</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">旅行配件</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">太阳镜</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">眼镜框</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">奢侈品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">大牌钟表</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">儿童手表</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">瑞士手表</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">日韩手表</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">欧美手表</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">闹钟挂钟</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">钟表维修</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">珠宝首饰</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">时尚饰品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">钻石翡翠</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">和田玉</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">银饰水晶</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">玛瑙彩宝</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">木手串/把件</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">投资收藏</a></li>
-							</ul>
-						</div>
-						<div class="leftlabel hide" style="top: 212px;">
-						</div>
-					</div>
-					<div class="unfold" style="width: 200px; height: 30px; padding-left: 10px;">
-						<a href=" " class="underline black">男鞋/运动/户外</a>
-						<div class="hide" style="width: 720px; height: 390px; background-color: white; position: absolute; z-index: 2; left: 340px; top: 20px;">
-							<ul style="list-style: none;">
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">休闲鞋</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">正装鞋</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">传统布鞋</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">跑步鞋</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">篮球鞋</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">专项运动鞋</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">运动套装</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">仰卧板/收腹机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">瑜伽用品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">运动护具</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">拉力器/臂力器</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">山地车</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">折叠车</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">自行车配件</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">乒乓球</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">羽毛球</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">高尔夫球</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">棋牌麻将</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">民俗运动</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">休闲衣裤</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">军迷用品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">野餐用品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">钓鱼配件</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">游泳圈</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">游泳配件</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">极限户外</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">冲浪潜水</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">滑雪装备</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">登山攀岩</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">救援装备</a></li>
-							</ul>
-						</div>
-						<div class="leftlabel hide" style="top: 242px;">
-						</div>
-					</div>
-					<div class="unfold" style="width: 200px; height: 30px; padding-left: 10px;">
-						<a href=" " class="underline black">母婴/玩具/乐器</a>
-						<div class="hide" style="width: 720px; height: 390px; background-color: white; position: absolute; z-index: 2; left: 340px; top: 20px;">
-							<ul style="list-style: none;">
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">有机奶粉</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">孕妈奶粉</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">营养辅食</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">米粉/菜粉</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">面条/粥</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">果泥/果汁</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">益生菌/初乳</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">钙铁锌/维生素</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">宝宝零食</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">尿裤湿巾</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">喂养用品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">奶瓶奶嘴</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">辅食料理机</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">儿童餐具</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">水壶/水杯</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">毛毯棉被</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">婴童床品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">孕妇护肤</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">安全座椅</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">积木拼装</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">遥控/电动</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">模型玩具</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">创意减压</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">电子琴</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">尤克里里</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">西洋管弦</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">民族乐器</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">绘画/DIY</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">益智玩具</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">乐器配件</a></li>
-							</ul>
-						</div>
-						<div class="leftlabel hide" style="top: 272px;">
-						</div>
-					</div>
-					<div class="unfold" style="width: 200px; height: 30px; padding-left: 10px;">
-						<a href=" " class="underline black">食品/酒类/生鲜</a>
-						<div class="hide" style="width: 720px; height: 390px; background-color: white; position: absolute; z-index: 2; left: 340px; top: 20px;">
-							<ul style="list-style: none;">
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">新鲜水果</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">进口水果</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">葱姜蒜椒</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">鲜菌菇茄</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">新鲜瓜果</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">半加工蔬菜</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">半加工豆制品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">玉米山药</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">地瓜红薯</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">精选肉类</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">海鲜水产</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">冷藏鲜肉</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">冷藏熟食</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">大闸蟹</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">海鲜加工品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">海产干货</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">烘焙半成品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">奶酪/黄油</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">火锅丸串</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">生日蛋糕</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">陈年老酒</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">中华老字号</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">牛奶酸奶</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">花果茶</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">蜜饯果干</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">糖果/巧克力</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">冲饮谷物</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">坚果炒货</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">方便食品</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">有机食品</a></li>
-							</ul>
-						</div>
-						<div class="leftlabel hide" style="top: 302px;">
-						</div>
-					</div>
-					<div class="unfold" style="width: 200px; height: 30px; padding-left: 10px;">
-						<a href=" " class="underline black">图书/文娱/教育</a>
-						<div class="hide" style="width: 720px; height: 390px; background-color: white; position: absolute; z-index: 2; left: 340px; top: 20px;">
-							<ul style="list-style: none;">
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">散文随笔</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">青春文学</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">悬疑推理</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">科幻武侠</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">世界名著</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">儿童文学</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">科普百科</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">智力开发</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">少儿英语</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">课外读物</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">字典词典</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">政治军事</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">传统文化</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">哲学宗教</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">市场营销</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">励志与成功</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">股票投资</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">建筑艺术</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">科学技术</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">计算机与互联网</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">杂志/期刊</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">职业技能培训</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">动漫周边</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">钱币邮资</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">考试考证</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">英文原版书</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">旅游地图</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">科普建筑</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">科学与自然</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">摄影绘画</a></li>
-							</ul>
-						</div>
-						<div class="leftlabel hide" style="top: 332px;">
-						</div>
-					</div>
-					<div class="unfold" style="width: 200px; height: 30px; padding-left: 10px;">
-						<a href=" " class="underline black">机票/酒店/旅游</a>
-						<div class="hide" style="width: 720px; height: 390px; background-color: white; position: absolute; z-index: 2; left: 340px; top: 20px;">
-							<ul style="list-style: none;">
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">国内机票</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">国际机票</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">火车票</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">机场服务</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">机票套餐</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">国内酒店</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">国际酒店</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">酒店套餐</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">超值精选</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">国内旅游</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">出境旅游</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">全球签证</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">景点门票</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">邮轮旅游</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">旅行保险</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">定制旅游</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">演出票务</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">电影选座</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">话剧歌剧</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">戏曲综艺</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">体育赛事</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">舞蹈芭蕾</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">水费电费</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">油卡充值</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">家政保洁</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">代理代办</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">摄影写真</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">游戏周边</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">QQ充值</a></li>
-								<li class="fl" style="padding: 15px;"><a class="textcolor black underline" href="">海外房产</a></li>
-							</ul>
-						</div>
-						<div class="leftlabel hide" style="top: 362px;">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div style="width: 700px; height: 374px; border: 1px solid red; position: absolute; z-index: 1; left: 350px; top: 222px;" onmousemove="stop()" onmouseout="start()">
-				<a href=" "></a><img src="img/bigpic01.png" class="picture" style="width: 700px; height: 374px;" /></a>
-				<a href=" "></a><img src="img/bigpic05.png" class="picture hide" style="width: 700px; height: 374px;" /></a>
-				<a href=" "></a><img src="img/bigpic06.png" class="picture hide" style="width: 700px; height: 374px;" /></a>
-				<a href=" "></a><img src="img/bigpic04.png" class="picture hide" style="width: 700px; height: 374px;" /></a>
-			</div>
-			<div>
-				<div style="width: 190px; height: 190px; position: absolute; left: 1060px; top: 215px;">
-					<a href="Goods01.html"><img src="img/smlpic01.png" style="width: 190px; height: 190px;" /></a>
-				</div>
-				<div style="width: 190px; height: 190px; position: absolute; left: 1060px; top: 414px;">
-					<a href="Goods02.html"><img src="img/smlpic02.png" style="width: 190px; height: 190px;" /></a>
-				</div>
-			</div>
-			<div>
-				<div style="width: 260px; height: 320px; border: 1px solid red; position: absolute; left: 140px; top: 638px;">
-					<a href=" "><img src="img/undpic01.png" style="width: 260px; height: 320px;"/>
-				</div>
-				<div style="width: 260px; height: 320px; border: 1px solid red; position: absolute; left: 423px; top: 638px;">
-					<a href=" "><img src="img/undpic02.png" style="width: 260px; height: 320px;"/>
-				</div>
-				<div style="width: 260px; height: 320px; border: 1px solid red; position: absolute; left: 706px; top: 638px;">
-					<a href=" "><img src="img/undpic03.png" style="width: 260px; height: 320px;"/>
-				</div>
-				<div style="width: 260px; height: 320px; border: 1px solid red; position: absolute; left: 989px; top: 638px;">
-					<a href=" "><img src="img/undpic04.png" style="width: 260px; height: 320px;"/>
-				</div>
-			</div>
-			<div style="background-color: lightgrey; position: absolute; width: 100%; height: 200px; left: 0px; right: 0px; top: 1000px">
-				<ul style="color: black; list-style: none;">
-					<li style="margin-left: 280px; font-size: 20px; font-weight: 600;">品类齐全，轻松购物 | 多仓直发，极速配送 | 正品行货，精致服务 | 天天低价，畅选无忧</li>
-					<li style="margin-left: 170px; margin-top: 10px;">关于我们 | 联系我们 | 联系客服 | 合作招商 | 商家帮助 | 营销中心 | 手机京东 | 友情链接 | 销售联盟 | 京东社区 | 风险监测 | 隐私政策 | 京东公益</li>
-					<li style="margin-left: 268px; margin-top: 10px;">京公网安备 11000002000088号 | 京ICP备11041704号 | 互联网药品信息服务资格证编号(京)-经营性-2014-0008</li>
-					<li style="margin-left: 267px; margin-top: 10px;">互联网出版许可证编号新出网证(京)字150号 | 出版物经营许可证 | 网络文化经营许可证京网文102016112-1201号</li>
-					<li style="margin-left: 362px; margin-top: 10px;">Copyright © 2004-2021 京东JD.com 版权所有 | 消费者维权热线：4006067733</li>
-					<li style="margin-left: 474px; margin-top: 10px;">（京)网械平台备字(2018)第00003号 | 营业执照</li>
-				</ul>
-			</div>
-			<div style="width: 50px; height: 50px; position: fixed; top: 650px; right: 15px; border: 2px solid black;">
-				<a href="#top"><img src="img/tnypic01.png"/ style="width: 50px; height: 50px;"></a>
-			</div>
+
+		<div class="round_div">
+<!--			<div class="r-s01"><a href="http://www.psdhtml.cn/index.php?c=thread&fid=18?wx01sy" target="_blank"><img src="http://cdn.psdhtml.cn/wx_images/icon02.png" width="40" height="40"></a></div>-->
+			<div class="r-s02">IOS</div>
 		</div>
-	</body>
-	
-	<script>
-		var n=1;
-		function turns(){
-			var imgs=document.getElementsByClassName("picture");
-			var l=imgs.length;
-			for(var i=0; i<l; i++){
-				if(i==n){	
-					imgs[i].classList.remove("hide");
-				}else{
-					imgs[i].classList.add("hide");
-				}
-			}
-			n++;
-			if(n==l){
-				n=0;
-			}
-		}
-		
-		var t=window.setInterval(turns,3000);
-		function stop(){
-			window.clearInterval(t);
-			var div = document.createElement("div")
-		}
-		function start(){
-			t=window.setInterval(turns,3000);
-		}
-	</script>
+
+		<div class="round_div">
+<!--			<div class="r-s01"><a href="http://www.psdhtml.cn/index.php?c=thread&fid=18?wx01sy" target="_blank"><img src="http://cdn.psdhtml.cn/wx_images/icon03.png" width="40" height="40"></a></div>-->
+			<div class="r-s02">Windows</div>
+		</div>
+
+		<div class="round_div">
+<!--			<div class="r-s01"><a href="http://www.psdhtml.cn/index.php?c=thread&fid=18?wx01sy" target="_blank"><img src="http://cdn.psdhtml.cn/wx_images/icon04.png" width="40" height="40"></a></div>-->
+			<div class="r-s02">Harmony OS</div>
+		</div>
+	</div>
+</div>
+
+<div class="mian01">
+
+	<div class="square_div">
+<!--		<div class="s-s01"><img src="http://cdn.psdhtml.cn/wx_images/icon_svg_01.svg" width="43" height="43"></div>-->
+		<div class="s-s02">We支付</div>
+	</div>
+
+	<div class="square_div">
+<!--		<div class="s-s01"><img src="http://cdn.psdhtml.cn/wx_images/icon_svg_02.svg" width="43" height="43"></div>-->
+		<div class="s-s02">公Z号</div>
+	</div>
+
+	<div class="square_div">
+<!--		<div class="s-s01"><img src="http://cdn.psdhtml.cn/wx_images/icon_svg_03.svg" width="43" height="43"></div>-->
+		<div class="s-s02">小程序</div>
+	</div>
+
+	<div class="square_div">
+<!--		<div class="s-s01"><img src="http://cdn.psdhtml.cn/wx_images/icon_svg_04.svg" width="43" height="43"></div>-->
+		<div class="s-s02">视频号助手</div>
+	</div>
+
+	<div class="square_div">
+<!--		<div class="s-s01"><img src="http://cdn.psdhtml.cn/wx_images/icon_svg_05.svg" width="43" height="43"></div>-->
+		<div class="s-s02">小游戏</div>
+	</div>
+
+	<div class="square_div">
+<!--		<div class="s-s01"><img src="http://cdn.psdhtml.cn/wx_images/icon_svg_06.svg" width="43" height="43"></div>-->
+		<div class="s-s02">小商店</div>
+	</div>
+
+	<div class="square_div">
+<!--		<div class="s-s01"><img src="http://cdn.psdhtml.cn/wx_images/icon_svg_07.svg" width="43" height="43"></div>-->
+		<div class="s-s02">表情开放平台</div>
+	</div>
+
+	<div class="square_div">
+<!--		<div class="s-s01"><img src="http://cdn.psdhtml.cn/wx_images/icon_svg_08.svg" width="43" height="43"></div>-->
+		<div class="s-s02">搜一搜开放平台</div>
+	</div>
+
+	<div class="square_div">
+<!--		<div class="s-s01"><img src="http://cdn.psdhtml.cn/wx_images/icon_svg_09.svg" width="43" height="43"></div>-->
+		<div class="s-s02">红包封面</div>
+	</div>
+
+	<div class="square_div">
+<!--		<div class="s-s01"><img src="http://cdn.psdhtml.cn/wx_images/icon_svg_10.svg" width="43" height="43"></div>-->
+		<div class="s-s02">对话开放</div>
+	</div>
+
+	<div class="square_div">
+<!--		<div class="s-s01"><img src="http://cdn.psdhtml.cn/wx_images/icon_svg_11.svg" width="43" height="43"></div>-->
+		<div class="s-s02">服务平台</div>
+	</div>
+
+	<div class="square_div">
+<!--		<div class="s-s01"><img src="http://cdn.psdhtml.cn/wx_images/icon_svg_12.svg" width="43" height="43"></div>-->
+		<div class="s-s02">在线学堂</div>
+	</div>
+</div>
+
+<footer class="down"><span class="f82">We安全 | 服务条款 | 使用规范 | 客服中心 | 隐私保护指引</span><br>
+	<span class="f75">Copyright © 1998-2022 All Rights Reserved.</span></footer>
+<div class="banquan"><a href="http://www.psdhtml.cn/index.php?c=thread&fid=18?wx01sy" target="_blank"></a></div>
+</body>
 </html>
