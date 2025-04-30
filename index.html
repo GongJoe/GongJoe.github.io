@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +10,8 @@
         }
     </style>
 </head>
-
-<body class="flex flex-col justify-center items-center h-screen bg-gray-100 space-y-4 px-20">
-    <p id="personal-info" class="roman-font text-3xl text-gray-800 text-center">My name is Joe Gong. I'm from Tsinghua University. My senior high <br>school is Fengcheng High School. I want to make the world a better place.</p>
-    <script>
-        const infoElement = document.getElementById('personal-info');
-        let text = infoElement.textContent;
-        text = text.replace("school is ", "school is <br>");
-        const newText = text.replace(/\./g, '. <br>');
-        infoElement.innerHTML = newText;
-    </script>
+<body class="flex justify-center items-center h-screen bg-gray-100">
+    <p class="roman-font text-4xl text-gray-800 text-center">Long live the People's Republic of China<br/>Long live the great unity of the people of the world</p>
 </body>
-
 </html>
     
