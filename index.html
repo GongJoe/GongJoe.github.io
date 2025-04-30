@@ -9,16 +9,18 @@
         .roman-font {
             font-family: 'Times New Roman', Times, serif;
         }
-
-        .songti-font {
-            font-family: SimSun, serif;
-        }
     </style>
 </head>
 
-<body class="flex flex-col justify-center items-center h-screen bg-gray-100">
-    <p class="roman-font text-4xl text-gray-800">Hello World</p>
-    <p class="songti-font text-4xl text-gray-800">你好世界</p>
+<body class="flex flex-col justify-center items-center h-screen bg-gray-100 space-y-4 px-20">
+    <p id="personal-info" class="roman-font text-3xl text-gray-800 text-center">My name is Joe Gong. I'm from Tsinghua University. My senior high <br>school is Fengcheng High School. I want to make the world a better place.</p>
+    <script>
+        const infoElement = document.getElementById('personal-info');
+        let text = infoElement.textContent;
+        text = text.replace("school is ", "school is <br>");
+        const newText = text.replace(/\./g, '. <br>');
+        infoElement.innerHTML = newText;
+    </script>
 </body>
 
 </html>
